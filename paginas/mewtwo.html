@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mewtwo - PokeWiki</title>
+    <link rel="stylesheet" href="/estilo/mewtwo.css">
+</head>
+<body>
+    <header>
+        <h1>PokeWiki</h1>
+        <nav>
+            <a href="index.html">Inicio</a>
+            <a href="pikachu.html">Pikachu</a>
+            <a href="charmander.html">Charmander</a>
+            <a href="bulbasaur.html">Bulbasaur</a>
+            <a href="squirtle.html">Squirtle</a>
+            <a href="gengar.html">Gengar</a>
+            <a href="mewtwo.html">Mewtwo</a>
+        </nav>
+    </header>
+
+    <main>
+
+        <article>
+            <h1>Mewtwo</h1>
+
+            <aside>
+                <img src="/imagens/mewtwo.png" alt="mewtwo">
+                <table>
+                    <tr>
+                        <th>Nº da Pokedex</th>
+                        <td>#0150</td>
+                    </tr>
+                    <tr>
+                        <th>Tipo</th>
+                        <td id="cor">PSIQUICO</td>
+                    </tr>
+                    <tr>
+                        <th>Altura</th>
+                        <td>2,0 m</td>
+                    </tr>
+                    <tr>
+                        <th>Peso</th>
+                        <td>122,0 kg</td>
+                    </tr>
+                    <tr>
+                        <th>Habilidade</th>
+                        <td>Pressure</td>
+                    </tr>
+                    <tr>
+                        <th>Evolui de</th>
+                        <td>mewtwo</td>
+                    </tr>
+                    <tr>
+                        <th>Evolui para</th>
+                        <td>-</td>
+                    </tr>
+                </table>
+            </aside>
+            <h2>Descrição</h2>
+            <p>Mewtwo é um Pokémon do tipo Psíquico introduzido na Geração 1. É conhecido como Pokémon Genético. Mewtwo tem duas Mega Evoluções, disponíveis em jogos da Geração 6. Eles podem ser ativados em batalha ao segurar as Mega Stones, Mewtwonite X e Mewtwonite Y, respectivamente.</p>
+
+            <h2>Status Base</h2>
+            <div class="status"><span>PS</span><span>106</span><div class="barra"><div style="width: 90%"></div></div></div>
+            <div class="status"><span>Ataque</span><span>110</span><div class="barra"><div style="width: 95%"></div></div></div>
+            <div class="status"><span>Defesa</span><span>90</span><div class="barra"><div style="width: 80%"></div></div></div>
+            <div class="status"><span>Velocidade</span><span>130</span><div class="barra"><div style="width: 100%"></div></div></div>
+
+            <h2>Golpes conhecidos</h2>
+            <ul>
+                <li>Psycho Cut</li>
+                <li>Amnesia</li>
+                <li>Psybeam</li>
+                <li>Confusion</li>
+            </ul>
+        </article>
+
+    </main>
+    <footer>
+    <h3>PokeWiki</h3>
+    <p>Uma wiki sobre Pokémon feita por estudantes.</p>
+
+    <nav>
+        <a href="index.html">Início</a>
+        <a href="pikachu.html">Pikachu</a>
+        <a href="charmander.html">Charmander</a>
+        <a href="bulbasaur.html">Bulbasaur</a>
+        <a href="gengar.html">Gengar</a>
+        <a href="mewtwo.html">Mewtwo</a>
+        <a href="squirtle.html">Squirtle</a>
+    </nav>
+
+    <h3>Sugira um Pokémon</h3>
+    <form action="https://formspree.io/f/SEU_ID" method="POST">
+        <label for="nome">Nome</label>
+        <input type="text" id="nome" name="nome" required>
+
+        <label for="email">E-mail</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="msg">Qual Pokémon você quer ver no site?</label>
+        <textarea id="msg" name="mensagem" required></textarea>
+
+        <button type="submit">Enviar sugestão</button>
+    </form>
+
+    <p class="creditos">
+        &copy; 2026 PokeWiki · João Guilherme, Bryan, Ryquelme, Cauã, Rafael e João Pedro
+    </p>
+</footer>
+</body>
+</html>

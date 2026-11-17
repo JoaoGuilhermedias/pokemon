@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Charmander - PokeWiki</title>
-    <link rel="stylesheet" href="estilo/charmander.css">
+    <link rel="stylesheet" href="/estilo/charmander.css">
 </head>
 <body>
     <header>
@@ -13,6 +13,10 @@
             <a href="index.html">Inicio</a>
             <a href="pikachu.html">Pikachu</a>
             <a href="charmander.html">Charmander</a>
+            <a href="bulbasaur.html">Bulbasaur</a>
+            <a href="squirtle.html">Squirtle</a>
+            <a href="gengar.html">Gengar</a>
+            <a href="mewtwo.html">Mewtwo</a>
         </nav>
     </header>
 
@@ -22,7 +26,7 @@
             <h1>Charmander</h1>
 
             <aside>
-                <img src="imagens/charmander-pixel-art-5uw31akfympfitcn.webp" alt="Pikachu">
+                <img src="/imagens/charmander-pixel-art-5uw31akfympfitcn.webp" alt="Pikachu">
                 <table>
                     <tr>
                         <th>Nº da Pokedex</th>
@@ -58,10 +62,10 @@
             <p>Charmander é um Pokémon do tipo Fogo, facilmente reconhecido pela chama que arde na ponta da cauda. Essa chama acompanha a energia do Pokémon: ela fica mais forte quando ele está animado e enfraquece quando ele está cansado. É um dos três Pokémon iniciais da primeira geração.</p>
 
             <h2>Status Base</h2>
-            <div class="status"><span>PS</span><span>39</span><div class="barra"><div style="width: 14%"></div></div></div>
-            <div class="status"><span>Ataque</span><span>52</span><div class="barra"><div style="width: 22%"></div></div></div>
-            <div class="status"><span>Defesa</span><span>43</span><div class="barra"><div style="width: 16%"></div></div></div>
-            <div class="status"><span>Velocidade</span><span>65</span><div class="barra"><div style="width: 35%"></div></div></div>
+            <div class="status"><span>PS</span><span>39</span><div class="barra"><div style="width: 39%"></div></div></div>
+            <div class="status"><span>Ataque</span><span>52</span><div class="barra"><div style="width: 52%"></div></div></div>
+            <div class="status"><span>Defesa</span><span>43</span><div class="barra"><div style="width: 43%"></div></div></div>
+            <div class="status"><span>Velocidade</span><span>65</span><div class="barra"><div style="width: 65%"></div></div></div>
 
             <h2>Golpes conhecidos</h2>
             <ul>
@@ -73,5 +77,37 @@
         </article>
 
     </main>
+    <footer>
+    <h3>PokeWiki</h3>
+    <p>Uma wiki sobre Pokémon feita por estudantes.</p>
+
+    <nav>
+        <a href="index.html">Início</a>
+        <a href="pikachu.html">Pikachu</a>
+        <a href="charmander.html">Charmander</a>
+        <a href="bulbasaur.html">Bulbasaur</a>
+        <a href="gengar.html">Gengar</a>
+        <a href="mewtwo.html">Mewtwo</a>
+        <a href="squirtle.html">Squirtle</a>
+    </nav>
+
+    <h3>Sugira um Pokémon</h3>
+    <form action="https://formspree.io/f/SEU_ID" method="POST">
+        <label for="nome">Nome</label>
+        <input type="text" id="nome" name="nome" required>
+
+        <label for="email">E-mail</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="msg">Qual Pokémon você quer ver no site?</label>
+        <textarea id="msg" name="mensagem" required></textarea>
+
+        <button type="submit">Enviar sugestão</button>
+    </form>
+
+    <p class="creditos">
+        &copy; 2026 PokeWiki · João Guilherme, Bryan, Ryquelme, Cauã, Rafael e João Pedro
+    </p>
+</footer>
 </body>
 </html>

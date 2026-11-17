@@ -62,3 +62,54 @@ nav>a:hover{
 main>p{
     font-size: 2.2vh;
 }
+
+footer {
+    background: #8f2210;
+    color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px 24px;
+    padding: 14px 20px 0;
+    margin-top: 24px;
+}
+
+footer h3 { margin: 0; font-size: 16px; }
+footer p  { margin: 0; font-size: 13px; color: #ffd9cf; }
+
+footer form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    flex: 1 1 420px;
+    justify-content: flex-end;
+}
+
+footer input {
+    flex: 1 1 140px;
+    padding: 8px 10px;
+    border: none;
+    border-radius: 8px;
+    font: inherit;
+    font-size: 14px;
+}
+
+footer button {
+    padding: 8px 18px;
+    background: #ffd43b;
+    color: #4a3800;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+}
+footer button:hover { background: #ffe066; }
+
+footer .creditos {
+    flex-basis: 100%;
+    text-align: center;
+    border-top: 1px solid rgba(255, 255, 255, .25);
+    padding: 10px 0;
+    font-size: 12px;
+}
