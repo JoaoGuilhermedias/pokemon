@@ -62,3 +62,21 @@ nav>a:hover{
 main>p{
     font-size: 2.2vh;
 }
+
+:root {
+    --fundo: #f4f4fb;
+    --card: #ffffff;
+    --texto: #1a1a2e;
+}
+
+body:has(#modo-escuro:checked) {
+    --fundo: #16161f;
+    --card: #22222e;
+    --texto: #f1f1f6;
+}
+
+#modo-escuro { display: none; }
+label[for="modo-escuro"] { cursor: pointer; }
+
+body { background: var(--fundo); color: var(--texto); transition: background .3s, color .3s; }
+article { background: var(--card); }
